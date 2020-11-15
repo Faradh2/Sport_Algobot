@@ -408,7 +408,7 @@ def start14(message):
     bot.register_next_step_handler(message, timerr)
 
 @bot.message_handler(commands=['birch'])
-def start14(message): 
+def start15(message): 
     global sec
     name = 'Берёзка'
     s = zapUpr(message,name)
@@ -417,7 +417,7 @@ def start14(message):
     bot.register_next_step_handler(message, timerr)
 
 @bot.message_handler(commands=['chair'])
-def start14(message): 
+def start16(message): 
     global sec
     name = 'Стульчик'
     s = zapUpr(message,name)
